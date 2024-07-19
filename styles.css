@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 
+
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -42,6 +43,18 @@ h4 {
     margin-bottom: 20px;
 }
 
+@media (max-width: 600px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+
+    .info-text {
+        margin-left: 0;
+    }
+
+}
+
 a {
     /* background: #696969; */
     /* border-radius: 10px; */
@@ -68,17 +81,7 @@ a:active {
 
 }
 
-@media (max-width: 600px) {
-    .info {
-        display: block;
-        text-align: center;
-    }
 
-    .info-text {
-        margin-left: 0;
-    }
-
-}
 
 
 .btn {
@@ -110,6 +113,10 @@ a:active {
     margin-bottom: 10px;
 }
 
+.bg-yellow {
+    background: #fff9dc;
+  }
+
 .bg-tomato {
     background: #FF6347;
 }
@@ -139,6 +146,17 @@ a:active {
 }
 
 
+.link-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .link-list li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+  }
+  
 .table {
     width: 100%;
 }
